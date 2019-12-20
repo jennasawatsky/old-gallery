@@ -112,6 +112,9 @@ body {
   display: grid;
   align-items: center;
   margin: auto;
+
+  position: relative;
+  top: 3.2rem;
 }
 
 .caption-container {
@@ -144,7 +147,7 @@ body {
   justify-content: space-between;
   width: 880px;
   position: relative;
-  bottom: 48px;
+  bottom: 1.6rem;
   margin: auto;
 }
 
@@ -160,6 +163,25 @@ body {
   opacity: 0.5;
 }
 
+.dots {
+position: relative;
+bottom: 7.2rem;
+}
+
+.dot {
+cursor: pointer;
+height: 0.8rem;
+width: 0.8rem;
+margin: 0 0.5rem;
+background-color: rgba(0, 0, 0, 0.04);
+border-radius: 50%;
+display: inline-block;
+transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+  background-color: rgba(0,0,0,0.7);
+}
 
 .fade {
 -webkit-animation-name: fade;
