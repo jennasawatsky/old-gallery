@@ -206,6 +206,7 @@ animation-duration: 1.5s;
 
 
 @media screen and (max-width: 956px) {
+
   .photo-container {
     min-width: 92vw;
     width: 92%;
@@ -233,6 +234,7 @@ main {
   align-items: center;
 }
 
+}
 
 @media screen and (max-width:720px){
   .site-navigation {
