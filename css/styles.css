@@ -17,24 +17,11 @@ body {
   color: #;
 }
 
-/* .body-container {
-  width: 100%;
-  height: 100%;
-  display: flex;
-  flex-direction: column;
-  flex-wrap: nowrap;
-} */
-
-/* header {
-  flex-shrink:0;
-} */
-
 .site-header {
   background: #FFFFFF;
   border-bottom: 0.05vw solid #E1E1E1;
   z-index: 100;
   min-height: 5.6rem;
-  /* height: 5vw; */
 }
 
 .header-container {
@@ -54,8 +41,6 @@ body {
   width: 100%;
   margin-top: 2.0rem;
   margin-bottom: 1.0rem;
-  /* background: yellow; */
-  /* margin: 2.0rem 0px 1.2rem 0px; */
 }
 
 
@@ -64,14 +49,11 @@ body {
   letter-spacing: 0.4rem;
   display: inline-flex;
   align-items: center;
-  /* border: 1px solid red; */
-  /* height: 4vw; */
 }
 
 .site-navigation {
   display:inline-flex;
   padding-left: 16rem;
-  /* border: 1px solid red; */
 }
 
 .nav-item-active {
@@ -88,11 +70,6 @@ body {
   color: #545454;
 }
 
-
- main {
-   /* position: relative;
-   min-height: 88vh; */
-}
 
 .slideshow-grid {
   padding-bottom: 1.6rem;
@@ -135,14 +112,12 @@ body {
   display: grid;
   align-items: center;
   margin: auto;
-  /* background: blue; */
 }
 
 .caption-container {
   text-align: center;
   margin: auto;
   width: 100%;
-  /* border-bottom: 0.01rem solid #E1E1E1; */
   padding: 1.6rem 0;
 }
 
@@ -171,20 +146,12 @@ body {
   position: relative;
   bottom: 48px;
   margin: auto;
-
-}
-
-/* .center-chevrons {
-  height: 0px;
-  background: orange; */
-
 }
 
 .prev,
 .next {
   cursor: pointer;
   transition: 0.6s ease;
-  /* border-radius: 0 3px 3px 0; */
   user-select: none;
 }
 
@@ -193,22 +160,6 @@ body {
   opacity: 0.5;
 }
 
-/* .dot {
-  /* cursor: pointer;
-  height: 1px;
-  width: 1px;
-  margin: 0 2px;
-  background-color: #bbb;
-  border-radius: 50%;
-  display: inline-block;
-  transition: background-color 0.6s ease; */
-}
-/*
-.active,
-/* .dot:hover */
- /* { */
-  /* background-color: black; */
-/* } */
 
 .fade {
 -webkit-animation-name: fade;
@@ -227,21 +178,11 @@ animation-duration: 1.5s;
   to {opacity: 1}
 }
 
-/* footer {
-  flex-shrink: 0;
-} */
-
 .footer-container {
   width: 100vw;
-  /* position: relative;
-  bottom: 0px; */
-  /* left: 4vw; */
   align: center;
   background: #ffffff;
-  /* width: 100px; */
   z-index: 100;
-  /* height: 9vh; */
-  /* background: orange; */
 }
 
 .copyright-grid {
@@ -255,17 +196,12 @@ animation-duration: 1.5s;
   padding-top: 0.8rem;
   padding-bottom: 4.0rem;
   background: #ffffff;
-
 }
 
 .copyright-1, .copyright-2 {
     font-size: 1.4rem;
     line-height: 2.0rem;
     opacity: 0.87;
-    /* position: absolute;
-    left: 4vw; */
-    /* border: 1px solid blue; */
-
 }
 
 
@@ -282,19 +218,12 @@ animation-duration: 1.5s;
   .chevrons {
     max-width: 92vw;
     width: 92%;
-    /* background: yellow; */
   }
 
   .photo-number {
     max-width: 92vw;
     width: 92%;
     }
-
-
-.slideshow-container {
-  /* padding-top: 4vw; */
-  /* background: red; */
-}
 
 
 main {
@@ -318,10 +247,7 @@ main {
   .header-content {
     margin-bottom: 1.4rem;
 }
-/*
-.slideshow-container {
-  background: blue;
-} */
+
 }
 
 @media screen and (max-width: 488px){
@@ -337,7 +263,6 @@ main {
     display: grid;
     grid-template-columns: 1fr;
     grid-template-rows: 1fr 1fr 1fr;
-    /* background: blue; */
   }
 
 .header-content {
@@ -345,7 +270,6 @@ main {
 }
 
   .nav-item-active, .nav-item {
-    /* height: 2.4rem; */
     line-height: 2.4rem;
     text-align: right;
     font-size: 1.5rem;
@@ -359,21 +283,13 @@ main {
     font-size: 1.2rem;
     padding-bottom: 0.6rem;
     height: 1.8rem;
-    /* background: green; */
   }
 
   .caption-location-date {
     font-size: 1.4rem;
   }
 
-  /* .caption-container {
-    padding-bottom: 7.2rem;
-    background: green;
-  } */
-
   .chevrons {
-    /* background: blue;
-    opacity: 0.5; */
     position: relative;
     bottom: 42px;
   }
@@ -383,10 +299,6 @@ main {
   }
 
   main {
-    /* position: relative;
-    min-height: 82vh;
-    display: grid;
-    align-items: center; */
     display: block;
   }
 
@@ -394,9 +306,6 @@ main {
   position: absolute;
   bottom: 3vw;
 }
-  .slideshow-container {
-    /* background: yellow; */
-  }
 
   .slideshow-grid {
     padding-top:2.4rem;
